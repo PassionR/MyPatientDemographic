@@ -10,13 +10,13 @@ public class PatientAddress {
   }
   @BeforeMethod
   public void beforeMethod() {
-	  System.out.println("test before address");
+	  System.out.println("call before method");
 
   }
 
   @AfterMethod
   public void afterMethod() {
-	  System.out.println("test after address");
+	  System.out.println("call after method");
 
   }
 
